@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <h1>YOUR NAME GOES HERE</h1>
+            <p>EDIT THIS HTML SECTION TO INSERT BIO</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <h4>WRITING</h4>
+        </div>
+    </div>
+</div>
+
+{% for post in posts %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <article>
+                <a class="button" class="text-secondary" href="posts/{{ post.slug }}.html">{{post.date}} {{ post.title}}</a>
+            </article>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+{% endblock %}
+
+
+{% block footer %}
+
+{{ super() }}
+
+{% endblock %}
+
+
+
