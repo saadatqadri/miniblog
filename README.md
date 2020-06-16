@@ -46,5 +46,6 @@ Warning: this is hacky and sad code, it was optimized for haste to put something
 - Official python packaging
 - Home should be generated from Markdown file
 - Make *everything* configurable
+- SEO fundamentals
 
 
