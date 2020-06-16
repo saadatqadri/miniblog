@@ -10,6 +10,7 @@ Only tested on Python 3.7
 
 ### Installation
 
+- Clone repo into `{{your code folder}}/blog`
 - Create `virtualenv`
 - Run `pip install -r requirements.txt`
 
